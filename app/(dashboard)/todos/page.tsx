@@ -9,8 +9,8 @@ const TodosPage = async () => {
   const todos = await fetchData();
   console.log(todos);
   return (
-    <div>
-      <h1>Todos</h1>
+    <div className="py-2 px-4">
+      <h1 className="text-xl font-semibold">Todos</h1>
       <TodoList todos={todos} />
     </div>
   );

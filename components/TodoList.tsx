@@ -1,5 +1,4 @@
 import Todo from './Todo';
-
 const TodoList = ({ todos }) => {
   return (
     <div>
