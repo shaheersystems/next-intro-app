@@ -1,6 +1,7 @@
 'use client';
 import { useTransition } from 'react';
 import { completeTodo } from '@/Utils/actions';
+
 const Todo = ({ todo }) => {
   const [isPending, startTransition] = useTransition();
   return (
